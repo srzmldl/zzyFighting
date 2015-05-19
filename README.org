@@ -1,0 +1,87 @@
+* Preface
+** Book
+   - 训练《算法竞赛入门经典―――训练指南》
+   - 辅助《算法艺术与信息学竞赛》
+   - 查阅《算法导论》
+   
+** Website
+   - [[http://www.cplusplus.com/][For cpp]]
+   - [[http://www.lydsy.com/JudgeOnline/][To solve problems in Chinese contests]]
+
+** Hint
+   - 相关资料以及布置的任务将动态添加。计划适时调整，可能有遗漏。
+   - 浙江省队选拔题目难度较大，这些算法都要求很熟练
+   - 竞赛是条很艰险的路，成功的是少数，但所有经历都将成为毕生财富。
+
+* Plan
+  
+** TODO From pascal to C++
+*** TODO Environment & Basical structure(A + B problem) 
+*** TODO Data type(signed & unsigned)
+    - bool
+    - char
+    - int 
+    - long long
+    - float
+    - double
+    - long double
+    - void
+    - string
+    - void
+*** TODO Operators
+    - Arithmetic operators: +, -, *, /, %, ++, --
+    - Relational operators: ==, !=, >, <, >=, <=
+    - Logical operators: &&, ||, !
+    - Bitwise operators: &, |, ~, ^, >>, <<
+    - Assignments operators: =, *=, /= and etc.
+
+*** TODO I/O (std, file)
+*** TODO for, if, function
+*** TODO array, struct, pointer(postponed)
+*** TODO typedef, define
+*** TODO sort, STL, string
+    We will learn these stuffs when encountering them.
+*** TODO Enjoy your cpp life!
+    
+** TODO Graph theory
+*** TODO simple
+    SPFA, dij, prim, kruskal, topSort, 差分约束
+*** TODO LCA
+*** TODO Tarjan
+**** TODO 强联通
+**** TODO 点双联通，割顶
+**** TODO 边双联通，桥
+     
+*** TODO Euler thoery
+*** TODO Bipartite graph
+    - 最大匹配：路径覆盖，独立集，团等
+    - 完美匹配  
+*** TODO Flow
+**** TODO dinic
+**** TODO 最小费用流
+*** TODO 最小树形图
+    
+** TODO Data structure 
+*** TODO 线段树 && lazy && optimize dij
+*** TODO ST && RMQ && 并查集
+*** TODO 左偏树
+*** TODO splay/treap
+*** TODO 树链剖分
+*** TODO link cut tree
+*** TODO 可持久化数据结构
+** TODO dp && optimize
+
+** TODO String
+*** TODO KMP && 回文串
+*** TODO hash
+*** TODO AC自动机
+*** TODO 后缀数组
+*** TODO 后缀自动机
+** TODO Math
+** TODO Computational geometry
+** TODO More method
+*** TODO 矩阵快速幂
+*** TODO 分块思想
+*** TODO 概率期望
+*** TODO 构造
+*** TODO Bash
