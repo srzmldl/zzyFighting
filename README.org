@@ -64,6 +64,7 @@
 *** TODO 线段树 && lazy && optimize dij
 *** TODO ST && RMQ && 并查集
 *** TODO 左偏树
+*** TODO 树分治
 *** TODO splay/treap
 *** TODO 树链剖分
 *** TODO link cut tree
