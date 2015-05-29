@@ -1,0 +1,39 @@
+
+* Review 40min  
+** dfs sequence for preparation.
+   [[http://main.edu.pl/en/archive/oi/14/meg][POI2007meg]]
+   讲dfs序性质。然后思考题目。
+   － 解法一：区间修改，打标记
+   － 解法二：单点修改，无标记。巧用时间戳，前缀和。
+   通过这两种方法，深入理解dfs序列。并且熟练使用线段树标记。
+
+** max flow min cost Review
+   回顾。为下一题证明做准备。像老师口述自己的理解。
+
+** Game(ShangHai Metropolitan Programming Contest)
+   [[http://acm.hdu.edu.cn/showproblem.php?pid=5242][HDU5242]]
+   - 结合前两题的基础，层层深入。
+   - 利用dfs序列性质，用费用流证明结论，最后用线段树打标记实现。
+   - 复习张老师教授内容，并加深理解。
+
+
+* cpp 60min
+** 基础
+** 叉姐脑洞题，代码简单。留做现场练习，看代码.
+
+
+* tarjan 
+  看我的tarjan代码。
+** 2-sat
+
+* cpp 60mina
+** 基础
+** 叉姐脑洞题，代码简单。留做现场练习，看代码。
+   
+* Bipartite graph 40min
+
+
+* tarjan 40min
+  看我的tarjan代码。
+** 2-sat
+
