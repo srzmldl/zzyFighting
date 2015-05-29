@@ -1,5 +1,5 @@
 
-* Review 40min  
+* Review
 ** dfs sequence for preparation.
    [[http://main.edu.pl/en/archive/oi/14/meg][POI2007meg]]
    
@@ -9,7 +9,7 @@
    通过这两种方法，深入理解dfs序列。并且熟练使用线段树标记。
 
 ** max flow min cost Review
-   回顾。为下一题证明做准备。像老师口述自己的理解。
+   回顾。为下一题证明做准备。向老师口述自己的理解。
 
 ** Game(ShangHai Metropolitan Programming Contest)
    [[http://acm.hdu.edu.cn/showproblem.php?pid=5242][HDU5242]]
@@ -17,24 +17,23 @@
    - 利用dfs序列性质，用费用流证明结论，最后用线段树打标记实现。
    - 复习张老师教授内容，并加深理解。
 
+** exercise
+  [[https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1939][白书P201 例题9]]
+  [[http://acm.hust.edu.cn/vjudge/problem/viewProblem.action?id=18697][白书P207例题10]]
+  
+* cpp
 
-* cpp 60min
 ** 基础
+   参见首页大纲。
+   
 ** 叉姐脑洞题，代码简单。留做现场练习，看代码.
+   主要题目选自nhb的ppt。
+   
+   
+* Bipartite graph 40min
+** hungary
+** 
 
 
 * tarjan 
-  看我的tarjan代码。
 ** 2-sat
-
-* cpp 60mina
-** 基础
-** 叉姐脑洞题，代码简单。留做现场练习，看代码。
-   
-* Bipartite graph 40min
-
-
-* tarjan 40min
-  看我的tarjan代码。
-** 2-sat
-
