@@ -21,6 +21,7 @@
   [[https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1939][白书P201 例题9]]
   [[http://acm.hust.edu.cn/vjudge/problem/viewProblem.action?id=18697][白书P207例题10]]
   
+
 * cpp
 
 ** 基础
@@ -30,10 +31,9 @@
    主要题目选自nhb的ppt。
    
    
-* Bipartite graph 40min
+* Bipartite graph
 ** hungary
 ** 
-
 
 * tarjan 
 ** 2-sat
