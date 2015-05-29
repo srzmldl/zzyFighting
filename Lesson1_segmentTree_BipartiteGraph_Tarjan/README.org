@@ -2,9 +2,10 @@
 * Review 40min  
 ** dfs sequence for preparation.
    [[http://main.edu.pl/en/archive/oi/14/meg][POI2007meg]]
+   
    讲dfs序性质。然后思考题目。
-   － 解法一：区间修改，打标记
-   － 解法二：单点修改，无标记。巧用时间戳，前缀和。
+   - 解法一：区间修改，打标记
+   - 解法二：单点修改，无标记。巧用时间戳，前缀和。
    通过这两种方法，深入理解dfs序列。并且熟练使用线段树标记。
 
 ** max flow min cost Review
