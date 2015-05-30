@@ -14,5 +14,6 @@ int main()
     s = (s + 1) % a;
     ull k = (a - s) % a;
     cout << 1 + k << ' ' << (ull)1e18 + k << endl;
+    
     return 0;
 }
