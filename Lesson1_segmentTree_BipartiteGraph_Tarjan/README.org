@@ -36,10 +36,16 @@
    - [[http://codeforces.com/problemset/problem/226/D][CF226D]] 
      - 正确分析复杂度，从全局看,每次整体和加2
      - 翻两次等于没有翻（经常用的结论）
-     
+   - [[http://codeforces.com/problemset/problem/468/C][CF468C]]
+     - 注意越界问题
+     - 1~1e18数位和求法45*18*1e18/10
+     - l=1,r=1e18,l，r每次加1,整个数位和加1.
+
+
 * Bipartite graph
 ** hungary
 ** 
+
 
 * tarjan 
 ** 2-sat
