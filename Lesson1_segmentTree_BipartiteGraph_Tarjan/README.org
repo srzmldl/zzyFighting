@@ -14,8 +14,10 @@
 ** Game(ShangHai Metropolitan Programming Contest)
    [[http://acm.hdu.edu.cn/showproblem.php?pid=5242][HDU5242]]
    - 结合前两题的基础，层层深入。
-   - 利用dfs序列性质，用费用流证明结论，最后用线段树打标记实现。
+   - 利用dfs序列性质，用费用流证明结论，每次选最远的叶子即可。
+   - 最后用线段树打标记实现，复杂度为nlogn。
    - 复习张老师教授内容，并加深理解。
+   - 代码带回的是打印版。
 
 ** exercise
   [[https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1939][白书P201 例题9]]
@@ -30,7 +32,11 @@
 ** 叉姐脑洞题，代码简单。留做现场练习，看代码.
    主要题目选自nhb的ppt。
    
-   
+   - [[http://acm.timus.ru/problem.aspx?space=1&num=1979][ural1979]] 简单构造。相对点
+   - [[http://codeforces.com/problemset/problem/226/D][CF226D]] 
+     - 正确分析复杂度，从全局看,每次整体和加2
+     - 翻两次等于没有翻（经常用的结论）
+     
 * Bipartite graph
 ** hungary
 ** 
