@@ -1,18 +1,25 @@
 * review
 [[http://www.lydsy.com/JudgeOnline/problem.php?id=1076][SCOI2008奖励关]]
 - 这么小的范围，要么状压dp，要么搜索。我写完再传上来。
+ 
+* zkw 线段树
+
+* dij＋线段树
+ 
+* 差分约束
 
 * Tarjan
 
 * 2-sat
 
 * Euler thoery
- 
-* 差分约束
 
 * 最小树形图
 
-* dij＋线段树
+* 平面图相关
+  平面图网络流转最断路
+
+* 弦图与区间图
 
 * 网络流例题选讲
 
