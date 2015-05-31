@@ -90,6 +90,10 @@
 [[http://acm.hust.edu.cn/vjudge/contest/view.action?cid=66131#overviewirtual][vitual judge]]
 
 [[http://hihocoder.com/problemset/problem/1158][编程之美复赛]]
- 
-*** wait
-lydsy 1076
+
+** Tips
+
+- 白书线段树例题，我的代码不见了。没有传上来。
+- hdu5242给了打印版本
+- 编程之美复赛题近期写完上传。(自己找一下题号1158)
+- 其余题代码都在，可以适度参考
