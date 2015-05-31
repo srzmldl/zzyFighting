@@ -91,3 +91,7 @@
 [[http://acm.hust.edu.cn/vjudge/contest/view.action?cid=66131#overviewirtual][vitual judge]]
 
 [[http://hihocoder.com/problemset/problem/1158][微软编程之美复赛]]
+
+
+*** wait
+lydsy 1076
