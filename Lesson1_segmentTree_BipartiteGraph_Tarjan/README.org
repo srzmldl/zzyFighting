@@ -70,7 +70,6 @@
     等于顶点数减去最大匹配：最大匹配中点全部去掉，剩余的点为独立集。
 此时共|V|-2|M|个点。接着从匹配边取一边加入独立集（这两个点不可能同时与非匹配点相邻，否则可以增广）。（再用抽屉原理证明这是最大的）
 
-
 *** 最大团：补图的最大独立集
 *** 最小点覆盖
     最大匹配。方案：见白书。证明，反证易得。
@@ -87,11 +86,10 @@
 
 *** KM最优匹配
 *** 例题
-    白书UVA11419, LA3415, LA3126,LA4043,uva11383 找对应题号提交即可。
+    白书UVA11419, LA3415, LA3126,LA4043,uva11383 点击链接找对应题号提交即可。
 [[http://acm.hust.edu.cn/vjudge/contest/view.action?cid=66131#overviewirtual][vitual judge]]
 
-[[http://hihocoder.com/problemset/problem/1158][微软编程之美复赛]]
-
-
+[[http://hihocoder.com/problemset/problem/1158][编程之美复赛]]
+ 
 *** wait
 lydsy 1076

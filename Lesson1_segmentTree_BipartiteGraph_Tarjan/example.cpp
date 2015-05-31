@@ -3,7 +3,8 @@
 #include <iostream>
 #include <cstdlib>
 
-const int oo = ~0U>>1;
+const int INF = ~0U>>1;
+
 using namespace std;
 
 int main()
@@ -14,6 +15,5 @@ int main()
     freopen("out.txt", "w", stdout);
     cin >> a >> b >> c;
     cout << a + b + c;
-    
     return 0;
 }
