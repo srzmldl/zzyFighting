@@ -5,12 +5,20 @@ using namespace std;
 
 int a[MAXN][MAXN];
 
+int max(int a, int b)
+{
+    if (a > b) return a;
+    else return b;
+    //return a > b ? a : b;
+}
+
 int main()
 {
     //  freopen("ural1979.in", "r", stdin);
     int n;
     cin >> n;
     int tot = 0;
+    int tmp = max(tot, 5);
     for (int i = 0; i < n; ++i)
         for (int j = 0; j < n; ++j)
         {
