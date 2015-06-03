@@ -15,8 +15,12 @@
 * Plan
   
 ** TODO From pascal to C++
-*** TODO Environment & Basical structure(A + B problem) 
-*** TODO Data type(signed & unsigned)
+*** DONE Environment & Basical structure(A + B problem) 
+    CLOSED: [2015-05-31 Sun 20:32]
+    - State "DONE"       from "TODO"       [2015-05-31 Sun 20:32]
+*** DONE Data type(signed & unsigned)
+    CLOSED: [2015-05-31 Sun 20:32]
+    - State "DONE"       from "TODO"       [2015-05-31 Sun 20:32]
     - bool
     - char
     - int 
@@ -27,15 +31,21 @@
     - void
     - string
     - void
-*** TODO Operators
+*** DONE Operators
+    CLOSED: [2015-05-31 Sun 20:32]
+    - State "DONE"       from "TODO"       [2015-05-31 Sun 20:32]
     - Arithmetic operators: +, -, *, /, %, ++, --
     - Relational operators: ==, !=, >, <, >=, <=
     - Logical operators: &&, ||, !
     - Bitwise operators: &, |, ~, ^, >>, <<
     - Assignments operators: =, *=, /= and etc.
 
-*** TODO I/O (std, file)
-*** TODO for, if, function
+*** DONE I/O (std, file)
+    CLOSED: [2015-05-31 Sun 20:32]
+    - State "DONE"       from "TODO"       [2015-05-31 Sun 20:32]
+*** DONE for, if, function
+    CLOSED: [2015-05-31 Sun 20:32]
+    - State "DONE"       from "TODO"       [2015-05-31 Sun 20:32]
 *** TODO array, struct, pointer(postponed)
 *** TODO typedef, define
 *** TODO sort, STL, string
