@@ -1,12 +1,18 @@
 * review
-[[http://www.lydsy.com/JudgeOnline/problem.php?id=1076][SCOI2008奖励关]]
+*** [[http://www.lydsy.com/JudgeOnline/problem.php?id=1076][SCOI2008奖励关]]
 - 这么小的范围，要么状压dp，要么搜索。我写完再传上来。
+
+*** hiho1158看代码学cpp
+  - scanf, printf
+  - 数组地址
+  - sort
+  - memset -1
+  - next数组注意
 * tips
   - 内容多而杂，估计得分两次讲
   - 适时加入考试技巧。gdb调试，bash对拍，java高精度(有java吗？）
 
 * zkw 线段树
-
 * dij＋线段树
  
 * 差分约束
@@ -17,6 +23,7 @@
 
 * Euler thoery
 
+
 * 最小树形图
 
 * 平面图相关
@@ -26,4 +33,4 @@
 
 * 网络流例题选讲
 
-* 图论基本算法就掌握了。
+* 至此图论基本算法就掌握了。

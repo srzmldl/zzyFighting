@@ -53,16 +53,26 @@
 *** TODO Enjoy your cpp life!
     
 ** TODO Graph theory
-*** TODO simple
+*** DONE simple
+    CLOSED: [2015-06-03 Wed 16:06]
+    - State "DONE"       from "TODO"       [2015-06-03 Wed 16:06]
     SPFA, dij, prim, kruskal, topSort, 差分约束
-*** TODO LCA
+    Lesson 1
+*** DONE LCA
+    CLOSED: [2015-06-03 Wed 16:06]
+    - State "DONE"       from "TODO"       [2015-06-03 Wed 16:06]
+    trival
 *** TODO Tarjan
 **** TODO 强联通
 **** TODO 点双联通，割顶
 **** TODO 边双联通，桥
      
 *** TODO Euler thoery
-*** TODO Bipartite graph
+*** DONE Bipartite graph
+    CLOSED: [2015-06-03 Wed 16:06]
+    - State "DONE"       from "TODO"       [2015-06-03 Wed 16:06]
+      
+    - Lesson1
     - 最大匹配：路径覆盖，独立集，团等
     - 完美匹配  
 *** TODO Flow
