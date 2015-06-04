@@ -91,6 +91,8 @@
 *** TODO link cut tree
 *** TODO 可持久化数据结构
 ** TODO dp && optimize
+*** TODO 树形dp，状压dp
+
 ** TODO String
 *** TODO KMP && 回文串
 *** TODO hash

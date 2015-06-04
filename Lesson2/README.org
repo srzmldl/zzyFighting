@@ -1,7 +1,10 @@
 * review
 *** [[http://www.lydsy.com/JudgeOnline/problem.php?id=1076][SCOI2008奖励关]]
 - 这么小的范围，要么状压dp，要么搜索。我写完再传上来。
-
+- struct
+- f[i][sta]表示考虑第i次游戏，吃糖果的状态是sta，到中止状态（玩了k次游戏）的最大收益。我看了一眼网上的题解，都是扯淡，这些作者一定没有好好学概率论.
+- 在f[i][sta]状态下，转到f[i + 1][newSta],摇到k种糖果概率都是1/k。考虑吃或者不吃的决策即可。
+- 我们会有状压，树规dp专题  
 *** hiho1158看代码学cpp
   - scanf, printf
   - 数组地址
@@ -11,12 +14,10 @@
 * tips
   - 内容多而杂，估计得分两次讲
   - 适时加入考试技巧。gdb调试，bash对拍，java高精度(有java吗？）
-
+    
 * zkw 线段树
 * dij＋线段树
- 
 * 差分约束
-
 * Tarjan
 
 * 2-sat
