@@ -1,6 +1,6 @@
 * review
 *** [[http://www.lydsy.com/JudgeOnline/problem.php?id=1076][SCOI2008奖励关]]
-- 这么小的范围，要么状压dp，要么搜索。我写完再传上来。
+- 这么小的范围，要么状压dp，要么搜索。
 - struct
 - f[i][sta]表示考虑第i次游戏，吃糖果的状态是sta，到中止状态（玩了k次游戏）的最大收益。我看了一眼网上的题解，都是扯淡，这些作者一定没有好好学概率论.
 - 在f[i][sta]状态下，转到f[i + 1][newSta],摇到k种糖果概率都是1/k。考虑吃或者不吃的决策即可。
@@ -18,28 +18,34 @@
 * zkw 线段树
  - 这部分暂时只教基本的，用来写dij＋线段树。 
  - 深入的内容暂时留后面讲，会涉及和平衡树，可持久化数据结构，字母树的比较。
-   
+
 * dij＋zkw
   - 回顾dij过程，无非就是单点修改，单点查询。这不就是线段树干的事情么？复杂度O(mlogn),需要根据边数来决定。
   -[[https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=21&page=show_problem&problem=1858][uva10917]] 练习zkw＋dij
   - 一般来说，spfa是够了
+  - 拓扑序，方案数。
+* 负权环
+- [[https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=22&page=show_problem&problem=2031][uva11090]]
+- spfa入队超过n次即产生负权环
+- 注意观察spfa的优化
+* 差分约束  
+- spfa如果没有负环，最后的图中，对于每一条边(u,v),一定有d[v]>=d[u]+w[u][v].
+- 化为d[v]-d[u]>=w[u][v].差分大有可用。
+- [[http://acm.zju.edu.cn/onlinejudge/showProblem.do?problemCode=1508][zoj1508]] 学会模型转换
+- [[https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=26&page=show_problem&problem=2473][uva11478]] 转了点弯
+总之转化成一堆不等式，求最大值/最小值很可能是差分约束。
 
-* 差分约束
-  
-  
 * Tarjan
-
+- 白书题
+- CF
+- training
 * 2-sat
-  
 * Euler thoery
-
-* 最小树形图
-
 * 平面图相关
-  平面图网络流转最断路
-
+  平面图网络流转最短路
+  
 * 弦图与区间图
-
+* 最小树形图
 * 网络流例题选讲
   
 * 至此图论基本算法就掌握了。
