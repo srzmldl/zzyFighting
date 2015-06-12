@@ -21,7 +21,7 @@
 
 * dij＋zkw
   - 回顾dij过程，无非就是单点修改，单点查询。这不就是线段树干的事情么？复杂度O(mlogn),需要根据边数来决定。
-  -[[https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=21&page=show_problem&problem=1858][uva10917]] 练习zkw＋dij
+  - [[https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=21&page=show_problem&problem=1858][uva10917]] 练习zkw＋dij
   - 一般来说，spfa是够了
   - 拓扑序，方案数。
 * 负权环
@@ -31,15 +31,41 @@
 * 差分约束  
 - spfa如果没有负环，最后的图中，对于每一条边(u,v),一定有d[v]>=d[u]+w[u][v].
 - 化为d[v]-d[u]>=w[u][v].差分大有可用。
-- [[http://acm.zju.edu.cn/onlinejudge/showProblem.do?problemCode=1508][zoj1508]] 学会模型转换
-- [[https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=26&page=show_problem&problem=2473][uva11478]] 转了点弯
+- [[http://acm.zju.edu.cn/onlinejudge/showProblem.do?problemCode=1508][zoj1508]] 学会模型转换。
+- [[https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=26&page=show_problem&problem=2473][uva11478]] 又是二分，注意观察是否满足二分性质。与负权环的题共通之处。
 总之转化成一堆不等式，求最大值/最小值很可能是差分约束。
 
 * Tarjan
-- 白书题
-- CF
-- training
-* 2-sat
+** 记住一些性质,巧解题目
+切记原图可能不联通。复杂度都是边数级别（这之前电脑坏了一次，代码都丢了，有需要我再写一次）
+*** 强连通分量
+- 为极大.
+- 是所有点的划分.
+- 缩点之后变为DAG
+*** 点双联通（无割顶）：
+- 每条边恰好属于一个点双连通分量
+- 不同点双连通分量间最多一个公共点，而且必为割点
+- 任意割点都是至少两个点双连通分量的公共点
+*** 边双联通分量（无桥）
+- 除桥不属于任何边双联通分量外，其他每边恰属于一个边双联通分量
+- 边双联通分量缩点之后变成森林
+
+*** 例题 
+- [[https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&category=18&page=show_problem&problem=1524][La3523]]
+- [[https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&category=34&page=show_problem&problem=3136][uva5135]]
+- [[https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=25&page=show_problem&problem=2299][uva11324]]
+- [[http://codeforces.com/gym/100016/attachments][毛子camp2010A]] (这题考场上想错了一次，因此写得很丑)
+
+* 2-sat（实际上可以归类入tarjan）
+** 一般是可以取值0,1.然后有些依赖关系。A选0,则B必需选1此类。得对称图
+** 求方案，连反向边，染色。
+   
+** 例题
+- [[https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&category=15&page=show_problem&problem=1212][la3211]]
+- [[https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&category=20&page=show_problem&problem=1714][la3713]]
+** TIPS
+- 有些具有迷惑性得2-sat。在网络流中我们会碰上
+- 3-sat,以及带权得2-sat是NPC。转成这种问题之后换思路。
 * Euler thoery
 * 平面图相关
   平面图网络流转最短路
