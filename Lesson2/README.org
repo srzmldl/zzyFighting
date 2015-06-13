@@ -61,15 +61,23 @@
 ** 求方案，连反向边，染色。
    
 ** 例题
+- 
 - [[https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&category=15&page=show_problem&problem=1212][la3211]]
 - [[https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&category=20&page=show_problem&problem=1714][la3713]]
 ** TIPS
 - 有些具有迷惑性得2-sat。在网络流中我们会碰上
 - 3-sat,以及带权得2-sat是NPC。转成这种问题之后换思路。
-* Euler thoery
+
 * 平面图相关
-  平面图网络流转最短路
-  
+- 平面图网络流转最短路
+- [[https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&category=19&page=show_problem&problem=1662][la3661]]
+- 重要性质，边与点等量级。
+- |V|-|E|+|F|=2
+- |E|<=3|V| - 6
+- [[http://acm.zju.edu.cn/onlinejudge/showProblem.do?problemCode=1391][zoj1391]]
+- 利用上述性质证明复杂度可行
+
+* Euler thoery
 * 弦图与区间图
 * 最小树形图
 * 网络流例题选讲
