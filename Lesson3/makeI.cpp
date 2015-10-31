@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main()<
+int main()
 {
     srand(clock() % time(0));
     freopen("iq.in", "w", stdout);
