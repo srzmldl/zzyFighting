@@ -50,6 +50,16 @@ void solve(l, r) {
 ** Fibonacci序列
    - f[i] = f[i - 1] + f[i - 2]
           = 2 * f[i - 2] + f[i - 3]
-** hnoi2011
+** hnoi2011 数学作业
    - http://www.lydsy.com/JudgeOnline/problem.php?id=2326
-   - f[i] = f[i - 1] * 10 ^ k + i
+   - f[i] = f[i - 1] * 10 ^ k + (i - 1) + 1
+** 推一推矩阵
+   - hdu2604
+     + f[n] = f[n - 1] + f[n - 3] + f[n - 4] (if n >= 5)
+     + http://acm.hdu.edu.cn/showproblem.php?pid=2604
+   - cf 185A
+     + http://codeforces.com/problemset/problem/185/A
+     + f[n] = 4 * f[n-1] - 2 ^ (n-1)
+* 最后最后最后
+  - 会做的题一定对拍对拍对拍
+  - 没想法的题拿部分分走人,会做的题一定对拍对拍拿满分

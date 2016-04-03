@@ -97,7 +97,9 @@
     - State "DONE"       from "STARTED"    [2016-04-03 Sun 23:08]
 ** TODO Data structure 
 *** DONE 线段树 && lazy && optimize dij
-    CLOSED: [2016-04-03 Sun 23:08]
+    - State "PROJECT"    from "SOMEDAY"    [2016-04-03 Sun 23:46]
+    - State "SOMEDAY"    from "WAITING"    [2016-04-03 Sun 23:46]
+    - State "SOMEDAY"    from "WAITING"    [2016-04-03 Sun 23:45]
     - State "DONE"       from "STARTED"    [2016-04-03 Sun 23:08]
 *** TODO ST && RMQ && 并查集
 *** TODO 左偏树
@@ -124,6 +126,7 @@
     CLOSED: [2016-04-03 Sun 23:08]
     - State "DONE"       from "STARTED"    [2016-04-03 Sun 23:08]
 *** TODO 构造
-*** TODO Bash
-*** TODO KD tree
+*** DONE Bash
+    CLOSED: [2016-04-03 Sun 23:44]
+    - State "DONE"       from "STARTED"    [2016-04-03 Sun 23:44]
 *** TODO Hash
