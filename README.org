@@ -14,7 +14,9 @@
    - 竞赛是条很艰险的路。没有人能够保证成功，但无论结果如何，所经历的，都将成为毕生财富。
 * Plan
   
-** TODO From pascal to C++
+** DONE From pascal to C++
+   CLOSED: [2016-04-03 Sun 23:07]
+   - State "DONE"       from "STARTED"    [2016-04-03 Sun 23:07]
 *** DONE Environment & Basical structure(A + B problem) 
     CLOSED: [2015-05-31 Sun 20:32]
     - State "DONE"       from "TODO"       [2015-05-31 Sun 20:32]
@@ -52,7 +54,9 @@
     We will learn these stuffs when encountering them.
 *** TODO Enjoy your cpp life!
     
-** TODO Graph theory
+** DONE Graph theory
+   CLOSED: [2016-04-03 Sun 23:07]
+   - State "DONE"       from "STARTED"    [2016-04-03 Sun 23:07]
 *** DONE simple
     CLOSED: [2015-06-03 Wed 16:06]
     - State "DONE"       from "TODO"       [2015-06-03 Wed 16:06]
@@ -62,12 +66,16 @@
     CLOSED: [2015-06-03 Wed 16:06]
     - State "DONE"       from "TODO"       [2015-06-03 Wed 16:06]
     trival
-*** TODO Tarjan
+*** DONE Tarjan
+    CLOSED: [2016-04-03 Sun 23:08]
+    - State "DONE"       from "STARTED"    [2016-04-03 Sun 23:08]
 **** TODO 强联通
 **** TODO 点双联通，割顶
 **** TODO 边双联通，桥
      
-*** TODO Euler thoery
+*** DONE Euler thoery
+    CLOSED: [2016-04-03 Sun 23:08]
+    - State "DONE"       from "STARTED"    [2016-04-03 Sun 23:08]
 *** DONE Bipartite graph
     CLOSED: [2015-06-03 Wed 16:06]
     - State "DONE"       from "TODO"       [2015-06-03 Wed 16:06]
@@ -75,14 +83,22 @@
     - Lesson1
     - 最大匹配：路径覆盖，独立集，团等
     - 完美匹配  
-*** TODO Flow
+*** DONE Flow
+    CLOSED: [2016-04-03 Sun 23:08]
+    - State "DONE"       from "STARTED"    [2016-04-03 Sun 23:08]
 **** TODO dinic
 **** TODO 最小费用流
-*** TODO 最小树形图
+*** DONE 最小树形图
+    CLOSED: [2016-04-03 Sun 23:08]
+    - State "DONE"       from "STARTED"    [2016-04-03 Sun 23:08]
     
-*** TODO 弦图
+*** DONE 弦图
+    CLOSED: [2016-04-03 Sun 23:08]
+    - State "DONE"       from "STARTED"    [2016-04-03 Sun 23:08]
 ** TODO Data structure 
-*** TODO 线段树 && lazy && optimize dij
+*** DONE 线段树 && lazy && optimize dij
+    CLOSED: [2016-04-03 Sun 23:08]
+    - State "DONE"       from "STARTED"    [2016-04-03 Sun 23:08]
 *** TODO ST && RMQ && 并查集
 *** TODO 左偏树
 *** TODO 树分治
@@ -104,7 +120,9 @@
 ** TODO More method
 *** TODO 矩阵快速幂
 *** TODO 分块思想
-*** TODO 概率期望
+*** DONE 概率期望
+    CLOSED: [2016-04-03 Sun 23:08]
+    - State "DONE"       from "STARTED"    [2016-04-03 Sun 23:08]
 *** TODO 构造
 *** TODO Bash
 *** TODO KD tree

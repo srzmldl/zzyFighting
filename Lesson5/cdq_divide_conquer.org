@@ -1,0 +1,55 @@
+* cdq divide conquer
+** 基本思想
+   - 三维偏序求和 or 最值
+   - 一维排序,二位归并,三维线段树(树状数组)
+   - 需要结合题目理解
+   - 对拍对拍对拍对拍对拍对拍,重要的事情说六遍
+** 一般框架
+   #+begin_src c++
+void solve(l, r) {
+   solve(l, mid);
+   //l~r按照第二维排序
+   //归并,借助线段树(树状数组)更新答案
+   solve(mid,r)
+   //根据情况决定是否还原
+}
+
+   #+end_src
+
+** hdu4742
+   - http://acm.hdu.edu.cn/showproblem.php?pid=4742
+   - 三维空间n个球,求最长链,使得x,y,z均递增
+   - 看代码 hdu4742.cpp
+   - 我自己当时比赛的时候写错了,用对拍找出的错
+   - 这种题目很难调,但是对拍超级好些,所以一般都写对拍.check3Ball.cpp
+   - make也只要写随机几个x,y,z就行了.
+** hdu5517
+   - http://acm.hdu.edu.cn/showproblem.php?pid=5517
+   - 看题吧,比较难描述
+   - 要点
+     + 二元组里面可以只记一个max,多了的无意义. 最终积的三元组缩减成m个
+     + 怎么转化成和之前一样的问题呢? 
+
+** mokia
+   - http://cojs.tk/cogs/problem/problem.php?pid=1752
+   - 支持两个操作
+     + 某个位置数值加x
+     + 求一个子矩阵里面的和
+   - 转化成上一个题类似的模型
+     + 矩阵拆分成4个(常见方法)
+     + 把询问时间当成一维,x,y坐标当成另外两维
+** bzoj3237
+   - http://www.lydsy.com/JudgeOnline/problem.php?id=3237
+   - 之前看网上题解看不懂应该是没有理解这种分治的思想
+   - 现在回过头去看应该可以懂了,只是不再是模板一般的三维偏序
+** 特别注意
+   - 排序不要拍结构体, 本来复杂度的log就很多, 拍个结构体就很慢了
+   - 线段树必须打时间戳,不能用memsize,否则超时
+   - 第二维排序的时候根据是否有相等的情况决定是否双关键字排序
+* 矩阵快速幂
+** Fibonacci序列
+   - f[i] = f[i - 1] + f[i - 2]
+          = 2 * f[i - 2] + f[i - 3]
+** hnoi2011
+   - http://www.lydsy.com/JudgeOnline/problem.php?id=2326
+   - f[i] = f[i - 1] * 10 ^ k + i
